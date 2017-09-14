@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+
+<script>
+ 
+$(function(){
+ $('#boton').attr("disabled", true);
+ 
+ $("#check").change(function()
+ {
+     $("#boton").attr("disabled", false);
+    ;
+ })            
+    
+});
+</script>
+
+
+
+</head>
+
+
+<body>
+
+Crear un check-box (el mismo podría ser para representar los términos y
+condiciones de una página web) y por defecto, dejar el botón submit desactivado. Al
+chequearlo, habilitar el botón para dejar al usuario hacer dicho submit.
+
+<br>
+
+<input type="checkbox" id="check" name='a'>  acepto <br>
+
+
+
+ <input type="submit" id="boton" value="agregar texto">
+
+
+<p>
+La casa esta linda.
+</p>
+
+</body>

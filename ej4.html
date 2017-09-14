@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+
+<script>
+ 
+$(function(){
+ 
+ $("#boton").click(function()
+ {
+     $("body").append('<p> mostrando el final </p>');
+    ;
+ })            
+    
+});
+</script>
+
+
+
+</head>
+
+
+<body>
+<p id="agregar">
+Armar los selectores (en papel) para obtener:
+ Todos los tags <div>
+ Todos los elementos con clase “miclase”
+ Todos los elementos que posean las clases “clase1” y “clase2”
+ Todos los tags <p> que posean la clase “pAzul”
+ Todos los tags <button> que posean id “boton1” y clase “claseSubmit”
+</p>
+
+
+
+<input type="button" id="boton" value="agregar texto">
+
+
+<p>
+La casa esta linda.
+</p>
+
+</body>
